@@ -1,0 +1,84 @@
+:root {
+  /* 明亚品牌色 */
+  --mingya-orange: #fe6917;
+  --mingya-orange-light: #ffb72d;
+  --mingya-orange-dark: #ee5400;
+  --mingya-orange-hover: #f48f2d;
+  --mingya-blue: #1a6dd4;
+  --mingya-blue-dark: #1256a8;
+  --mingya-gradient: linear-gradient(180deg, #ffb72d 0%, #fe6917 100%);
+  --mingya-gradient-hover: linear-gradient(180deg, #ffc44d 0%, #ee5400 100%);
+
+  /* 中性色 */
+  --mingya-bg: #f7f7f7;
+  --mingya-bg-light: #fafafa;
+  --mingya-white: #ffffff;
+  --mingya-text-primary: #333333;
+  --mingya-text-secondary: #666666;
+  --mingya-text-muted: #999999;
+  --mingya-border: #e8e8e8;
+  --mingya-border-light: #dcdcdc;
+
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--mingya-text-primary);
+  background-color: var(--mingya-bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--mingya-orange);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--mingya-orange-dark);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--mingya-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--mingya-text-primary);
+  font-weight: 500;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* 明亚风格滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--mingya-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--mingya-orange);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mingya-orange-dark);
+}
