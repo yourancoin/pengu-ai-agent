@@ -3,7 +3,7 @@ spring:
     name: pengu-ai-agent
   profiles:
     active: local
-# 临时注释掉，便于开发调试和部署（实际填写 PgVector 数据库信息)
+# 临时注释掉，便于开发调试和部署（实际填写 PgVector 数据库信息 )
 #  datasource:
 #    url: jdbc:postgresql://pgm-bp198i03d
 #    username:
