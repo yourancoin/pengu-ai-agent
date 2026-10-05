@@ -4,12 +4,11 @@
 
 **AI保险规划专家 、 拥有自主规划能力的AI超级智能体**
 
-![](http://picture.coinyouran.cn/20261004165824487.png)
-![](http://picture.coinyouran.cn/20261006004529492.png)
+![](https://picture.coinyouran.cn/20261004165824487.png)
 
 `AI 保险规划应用` 可以依赖 AI 大模型解决用户的家庭资产规划问题，支持多轮对话、基于自定义知识库进行问答、对话记忆持久化、RAG 知识库检索、自主调用工具和 MCP 服务完成任务。
 
-![](https://ian-upic.oss-cn-hangzhou.aliyuncs.com/20261006000620444.png)
+![](https://picture.coinyouran.cn/20261006000620444.png)
 
 此外，右边 AI超级智能体用 ReAct 模式的 `自主规划智能体 PenguManus` ，可以根据用户的需求，自主推理和行动，直到完成目标。通过AI MCP 服务可以从特定网站搜索图片，可以利用一系列工具包括联网搜索、文件操作、网页抓取、资源下载、终端操作、PDF 生成工具，帮用户制定并生成文档。
 
@@ -63,7 +62,7 @@
 
 - 检索与增强：使用QuestionAnswerAdvisor 和更灵活的RetrievalAugmentationAdvisor 实现 RAG 流程，后者还结合了VectorStoreDocumentRetriever和 ContextualQueryAugmenter等组件进行查询优化和空上下文处理。还实践了查询重写(RewriteQueryTransformer)等预检索优化技术。
 
-![](https://ian-upic.oss-cn-hangzhou.aliyuncs.com/Image_mhac29mhac29mhac.jpeg)
+![](https://picture.coinyouran.cn/Image_mhac29mhac29mhac.jpeg)
 
 7)工具调用(Tool Calling)：
 
@@ -80,5 +79,5 @@
 ## 项目架构设计图：
 
 
-![](https://ian-upic.oss-cn-hangzhou.aliyuncs.com/20261005234709227.png)
+![](https://picture.coinyouran.cn/20261005234709227.png)
 
