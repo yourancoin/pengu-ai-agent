@@ -4,9 +4,7 @@
 
 **AI保险规划专家 、 拥有自主规划能力的AI超级智能体**
 
-![](https://picture.coinyouran.cn/20261004165824487.png)
-
-![AI 智能体架构图](https://pic.yupi.icu/1/AI%E6%99%BA%E8%83%BD%E4%BD%93%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![Uploading image.png…]()
 
 `AI 保险规划应用` 可以依赖 AI 大模型解决用户的家庭资产规划问题，支持多轮对话、基于自定义知识库进行问答、对话记忆持久化、RAG 知识库检索、自主调用工具和 MCP 服务完成任务。
 
