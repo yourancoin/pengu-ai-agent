@@ -6,11 +6,10 @@
 
 <img width="1115" height="935" alt="20261004165824487" src="https://github.com/user-attachments/assets/0c57862c-2f0a-4b98-a66b-f616477d71b1" />
 
-![AI 智能体架构图](https://pic.yupi.icu/1/AI%E6%99%BA%E8%83%BD%E4%BD%93%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
-
 `AI 保险规划应用` 可以依赖 AI 大模型解决用户的家庭资产规划问题，支持多轮对话、基于自定义知识库进行问答、对话记忆持久化、RAG 知识库检索、自主调用工具和 MCP 服务完成任务。
 
-![](https://picture.coinyouran.cn/20261006000620444.png)
+<img width="924" height="501" alt="image" src="https://github.com/user-attachments/assets/49ce937a-cfb9-4286-8531-c28dda112e97" />
+
 
 此外，右边 AI超级智能体用 ReAct 模式的 `自主规划智能体 PenguManus` ，可以根据用户的需求，自主推理和行动，直到完成目标。通过AI MCP 服务可以从特定网站搜索图片，可以利用一系列工具包括联网搜索、文件操作、网页抓取、资源下载、终端操作、PDF 生成工具，帮用户制定并生成文档。
 
@@ -64,7 +63,8 @@
 
 - 检索与增强：使用QuestionAnswerAdvisor 和更灵活的RetrievalAugmentationAdvisor 实现 RAG 流程，后者还结合了VectorStoreDocumentRetriever和 ContextualQueryAugmenter等组件进行查询优化和空上下文处理。还实践了查询重写(RewriteQueryTransformer)等预检索优化技术。
 
-![](https://picture.coinyouran.cn/Image_mhac29mhac29mhac.jpeg)
+<img width="1136" height="938" alt="image" src="https://github.com/user-attachments/assets/8f0bfb5d-ebc9-46c6-a72e-228063a38adf" />
+
 
 7)工具调用(Tool Calling)：
 
@@ -80,6 +80,6 @@
 
 ## 项目架构设计图：
 
+<img width="853" height="1024" alt="image" src="https://github.com/user-attachments/assets/b1852fd0-2903-4031-9fd1-c02ae4650288" />
 
-![](https://picture.coinyouran.cn/20261005234709227.png)
 
