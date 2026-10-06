@@ -4,7 +4,7 @@
 
 **AI保险规划专家 、 拥有自主规划能力的AI超级智能体**
 
-![](https://picture.coinyouran.cn/1/20261004165824487.png?v=18)
+<img width="1115" height="935" alt="20261004165824487" src="https://github.com/user-attachments/assets/0c57862c-2f0a-4b98-a66b-f616477d71b1" />
 
 ![AI 智能体架构图](https://pic.yupi.icu/1/AI%E6%99%BA%E8%83%BD%E4%BD%93%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
